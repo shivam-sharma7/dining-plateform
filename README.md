@@ -11,3 +11,42 @@ This is a full stack food ordering plateform web app.
    <img src="https://img.shields.io/badge/Nodejs-E3428?logo=node.js&logoColor=white&style=for-the-badge">
     <img src="https://img.shields.io/badge/MongoDB-E3428?logo=mongoDB&logoColor=white&style=for-the-badge">
 </div>
+
+## Set up backend
+You need to cretae a `.env` file in backend directory and follow the [default.env](./default.env) for example.
+
+Clone the project 
+```bash
+git clone git@github.com:your_username/dining-plateform.git
+````
+Navigate to backend directory
+```bash
+cd backend
+```
+install dependencies
+```bash
+npm install
+```
+start dev server
+```
+npm run dev
+```
+
+## Set up frontend
+You need to cretae a `.env` file in frontend directory and add the following to fetch data.
+```
+VITE_API_BASE_URL=http://localhost:5000
+```
+Navigate to frontend directory
+```bash
+cd frontend
+```
+install dependencies
+```bash
+npm install
+```
+start dev server
+```
+npm run dev
+```
+navigate to [localhost:3000](http://localhost:3000)
